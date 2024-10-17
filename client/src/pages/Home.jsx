@@ -56,15 +56,6 @@ function Home() {
     setCurrentIndex((prevIndex) => (prevIndex + 1) % items.length);
   };
 
-  // Function to handle previous slide (if needed)
-  const handlePrev = () => {
-    if (isAnimating) return;
-    setIsAnimating(true);
-    setCurrentIndex(
-      (prevIndex) => (prevIndex - 1 + items.length) % items.length
-    );
-  };
-
   // Effect to handle automatic slide changes
   useEffect(() => {
     intervalRef.current = setInterval(() => {

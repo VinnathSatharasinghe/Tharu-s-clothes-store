@@ -28,7 +28,7 @@ header a {
 /* carousel */
 .carousel {
   height: 100vh;
-  margin-top: -10px;
+  margin-top: 50px;
   width: 100vw;
   overflow: hidden;
   position: relative;
@@ -82,11 +82,16 @@ header a {
   letter-spacing: 3px;
   font-family: Poppins;
   font-weight: 500;
+  font-size: 11px;
+  color: black;
+  border-radius: 20px;
+  box-shadow: 1px 1px 5px 5px black;
+  margin-left: 10px;
 }
 .carousel .list .item .buttons button:nth-child(2) {
-  background-color: transparent;
+  background-color: orange;
   border: 1px solid #fff;
-  color: #eee;
+  color: black;
 }
 /* thumbail */
 .thumbnail {
