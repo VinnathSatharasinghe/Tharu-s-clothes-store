@@ -1,7 +1,7 @@
 import { useState, useEffect, useRef } from "react";
 import "../css/home.css";
 
-import Button from "react-bootstrap/Button";
+// import Button from "react-bootstrap/Button";
 import Card from "react-bootstrap/Card";
 
 import Navbar from "../navbar/navbar";
@@ -85,7 +85,7 @@ function Home() {
 
   return (
     <>
-      <Navbar />
+      <Navbar/>
 
       <div>
         <div>
@@ -143,75 +143,55 @@ function Home() {
       </div>
 
       <section className="second">
-        <h1>adadawdawdawd</h1>
+        <h1>Second Section</h1>
 
         <div style={{ display: "flex", justifyContent: "space-around" }}>
-          <Card border="primary" style={{ width: "18rem" }}>
+          <Card border="primary" style={{ width: "22rem" }}>
             <Card.Header>Header</Card.Header>
             <Card.Body>
               <Card.Title>Primary Card Title</Card.Title>
               <Card.Text>
                 Some quick example text to build on the card title and make up
-                the bulk of the card's content.
+                the bulk of the card content.
               </Card.Text>
             </Card.Body>
           </Card>
 
-          <Card border="secondary" style={{ width: "18rem" }}>
+          <Card border="secondary" style={{ width: "22rem" }}>
             <Card.Header>Header</Card.Header>
             <Card.Body>
               <Card.Title>Secondary Card Title</Card.Title>
               <Card.Text>
                 Some quick example text to build on the card title and make up
-                the bulk of the card's content.
+                the bulk of the cards content.
               </Card.Text>
             </Card.Body>
           </Card>
 
-          <Card border="secondary" style={{ width: "18rem" }}>
+          <Card border="secondary" style={{ width: "22rem" }}>
             <Card.Header>Header</Card.Header>
             <Card.Body>
               <Card.Title>Success Card Title</Card.Title>
               <Card.Text>
                 Some quick example text to build on the card title and make up
-                the bulk of the card's content.
+                the bulk of the cards content.
               </Card.Text>
             </Card.Body>
           </Card>
 
-          <Card border="secondary" style={{ width: "18rem" }}>
+          <Card border="secondary" style={{ width: "22rem" }}>
             <Card.Header>Header</Card.Header>
             <Card.Body>
               <Card.Title>Danger Card Title</Card.Title>
               <Card.Text>
                 Some quick example text to build on the card title and make up
-                the bulk of the card's content.
+                the bulk of the cards content.
               </Card.Text>
             </Card.Body>
           </Card>
         </div>
       </section>
 
-      {/* <footer>
-        <div className="footer-section">
-          <h3>Section 1</h3>
-          <p>Some content here.</p>
-        </div>
-        <div className="footer-section">
-          <h3>Section 2</h3>
-          <p>Some content here.</p>
-        </div>
-        <div className="footer-section">
-          <h3>Section 3</h3>
-          <p>Some content here.</p>
-        </div>
-        <div className="footer-section">
-          <h3>Section 4</h3>
-          <p>Some content here.</p>
-        </div>
-
-        <p className="up">© 2024 Tharu's. All rights reserved.</p>
-      </footer> */}
       <Footer/>
     </>
   );

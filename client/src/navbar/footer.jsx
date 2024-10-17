@@ -42,6 +42,7 @@ const Footer = () => {
               <li>Instagram</li>
               <li>Facebook</li>
               <li>WhatsApp</li>
+              
               <li>TikTok</li>
             </ol>
             <p>Head office: No.18, Kawdana Road, Dehiwala</p>
